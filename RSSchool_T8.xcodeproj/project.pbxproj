@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		101B95E326A6E105000052C1 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101B95E226A6E105000052C1 /* TimerViewController.swift */; };
 		101B95E626A6EFED000052C1 /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101B95E526A6EFED000052C1 /* PaletteViewController.m */; };
+		101F736F26A713BE0012AD84 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 101F736E26A711940012AD84 /* Montserrat-Regular.ttf */; };
 		106829EE26A4986F00BBA7D2 /* RSMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 106829ED26A4986F00BBA7D2 /* RSMainButton.m */; };
 		106829F526A4AA1600BBA7D2 /* DrawingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 106829F426A4AA1600BBA7D2 /* DrawingsViewController.m */; };
 		106829F826A57C8200BBA7D2 /* PlanetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 106829F726A57C8200BBA7D2 /* PlanetView.m */; };
@@ -189,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				101F736F26A713BE0012AD84 /* Montserrat-Regular.ttf in Resources */,
 				10A7821026A47D900002D3F6 /* LaunchScreen.storyboard in Resources */,
 				10A7820D26A47D900002D3F6 /* Assets.xcassets in Resources */,
 				10A7820B26A47D8E0002D3F6 /* Main.storyboard in Resources */,

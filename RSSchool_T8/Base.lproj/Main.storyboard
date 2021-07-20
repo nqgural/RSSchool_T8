@@ -43,7 +43,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="EYs-AX-rlC"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="17"/>
                                 <state key="normal" title="Open palette">
                                     <color key="titleColor" red="0.32941177490000001" green="0.68235301969999995" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -239,7 +239,7 @@
                                         <color key="minimumTrackTintColor" red="0.32941177490000001" green="0.68235301969999995" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </slider>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZQr-pY-b2y">
-                                        <rect key="frame" x="28" y="103" width="7" height="22"/>
+                                        <rect key="frame" x="28.5" y="103" width="6.5" height="22"/>
                                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>

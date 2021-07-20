@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		101B95E326A6E105000052C1 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101B95E226A6E105000052C1 /* TimerViewController.swift */; };
 		101B95E626A6EFED000052C1 /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101B95E526A6EFED000052C1 /* PaletteViewController.m */; };
-		106829EB26A4930000BBA7D2 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 106829E626A48AD900BBA7D2 /* Montserrat-Regular.ttf */; };
 		106829EE26A4986F00BBA7D2 /* RSMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 106829ED26A4986F00BBA7D2 /* RSMainButton.m */; };
 		106829F526A4AA1600BBA7D2 /* DrawingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 106829F426A4AA1600BBA7D2 /* DrawingsViewController.m */; };
 		106829F826A57C8200BBA7D2 /* PlanetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 106829F726A57C8200BBA7D2 /* PlanetView.m */; };
@@ -28,7 +27,7 @@
 		101B95E226A6E105000052C1 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		101B95E426A6EFED000052C1 /* PaletteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaletteViewController.h; sourceTree = "<group>"; };
 		101B95E526A6EFED000052C1 /* PaletteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaletteViewController.m; sourceTree = "<group>"; };
-		106829E626A48AD900BBA7D2 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "../../../../../../Downloads/Montserrat/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		101F736E26A711940012AD84 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		106829EC26A4986F00BBA7D2 /* RSMainButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSMainButton.h; sourceTree = "<group>"; };
 		106829ED26A4986F00BBA7D2 /* RSMainButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSMainButton.m; sourceTree = "<group>"; };
 		106829F326A4AA1600BBA7D2 /* DrawingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DrawingsViewController.h; path = RSSchool_T8/ViewControllers/DrawingsViewController.h; sourceTree = SOURCE_ROOT; };
@@ -80,7 +79,7 @@
 		106829D826A48A3E00BBA7D2 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				106829E626A48AD900BBA7D2 /* Montserrat-Regular.ttf */,
+				101F736E26A711940012AD84 /* Montserrat-Regular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -190,7 +189,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				106829EB26A4930000BBA7D2 /* Montserrat-Regular.ttf in Resources */,
 				10A7821026A47D900002D3F6 /* LaunchScreen.storyboard in Resources */,
 				10A7820D26A47D900002D3F6 /* Assets.xcassets in Resources */,
 				10A7820B26A47D8E0002D3F6 /* Main.storyboard in Resources */,

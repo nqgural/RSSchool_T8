@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		101B95E326A6E105000052C1 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101B95E226A6E105000052C1 /* TimerViewController.swift */; };
+		101B95E626A6EFED000052C1 /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101B95E526A6EFED000052C1 /* PaletteViewController.m */; };
+		106829EB26A4930000BBA7D2 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 106829E626A48AD900BBA7D2 /* Montserrat-Regular.ttf */; };
+		106829EE26A4986F00BBA7D2 /* RSMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 106829ED26A4986F00BBA7D2 /* RSMainButton.m */; };
+		106829F526A4AA1600BBA7D2 /* DrawingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 106829F426A4AA1600BBA7D2 /* DrawingsViewController.m */; };
+		106829F826A57C8200BBA7D2 /* PlanetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 106829F726A57C8200BBA7D2 /* PlanetView.m */; };
+		106829FE26A57EAA00BBA7D2 /* ViewWithDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 106829FD26A57EAA00BBA7D2 /* ViewWithDrawing.m */; };
+		10A7820226A47D8E0002D3F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A7820126A47D8E0002D3F6 /* AppDelegate.m */; };
+		10A7820526A47D8E0002D3F6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A7820426A47D8E0002D3F6 /* SceneDelegate.m */; };
+		10A7820826A47D8E0002D3F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A7820726A47D8E0002D3F6 /* ViewController.m */; };
+		10A7820B26A47D8E0002D3F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A7820926A47D8E0002D3F6 /* Main.storyboard */; };
+		10A7820D26A47D900002D3F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10A7820C26A47D900002D3F6 /* Assets.xcassets */; };
+		10A7821026A47D900002D3F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A7820E26A47D900002D3F6 /* LaunchScreen.storyboard */; };
+		10A7821326A47D900002D3F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A7821226A47D900002D3F6 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		101B95DF26A6E01F000052C1 /* RSSchool_T8-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSSchool_T8-Bridging-Header.h"; sourceTree = "<group>"; };
+		101B95E226A6E105000052C1 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		101B95E426A6EFED000052C1 /* PaletteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaletteViewController.h; sourceTree = "<group>"; };
+		101B95E526A6EFED000052C1 /* PaletteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaletteViewController.m; sourceTree = "<group>"; };
+		106829E626A48AD900BBA7D2 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "../../../../../../Downloads/Montserrat/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		106829EC26A4986F00BBA7D2 /* RSMainButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSMainButton.h; sourceTree = "<group>"; };
+		106829ED26A4986F00BBA7D2 /* RSMainButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSMainButton.m; sourceTree = "<group>"; };
+		106829F326A4AA1600BBA7D2 /* DrawingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DrawingsViewController.h; path = RSSchool_T8/ViewControllers/DrawingsViewController.h; sourceTree = SOURCE_ROOT; };
+		106829F426A4AA1600BBA7D2 /* DrawingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DrawingsViewController.m; path = RSSchool_T8/ViewControllers/DrawingsViewController.m; sourceTree = SOURCE_ROOT; };
+		106829F626A57C8200BBA7D2 /* PlanetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlanetView.h; path = RSSchool_T8/PlanetView.h; sourceTree = SOURCE_ROOT; };
+		106829F726A57C8200BBA7D2 /* PlanetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlanetView.m; path = RSSchool_T8/PlanetView.m; sourceTree = SOURCE_ROOT; };
+		106829FC26A57EAA00BBA7D2 /* ViewWithDrawing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewWithDrawing.h; sourceTree = "<group>"; };
+		106829FD26A57EAA00BBA7D2 /* ViewWithDrawing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewWithDrawing.m; sourceTree = "<group>"; };
+		10A781FD26A47D8E0002D3F6 /* RSSchool_T8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchool_T8.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A7820026A47D8E0002D3F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10A7820126A47D8E0002D3F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10A7820326A47D8E0002D3F6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		10A7820426A47D8E0002D3F6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		10A7820626A47D8E0002D3F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10A7820726A47D8E0002D3F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10A7820A26A47D8E0002D3F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10A7820C26A47D900002D3F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10A7820F26A47D900002D3F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10A7821126A47D900002D3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10A7821226A47D900002D3F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10A781FA26A47D8E0002D3F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		101B95D226A6D3DF000052C1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				10A7820626A47D8E0002D3F6 /* ViewController.h */,
+				10A7820726A47D8E0002D3F6 /* ViewController.m */,
+				106829F326A4AA1600BBA7D2 /* DrawingsViewController.h */,
+				106829F426A4AA1600BBA7D2 /* DrawingsViewController.m */,
+				101B95DF26A6E01F000052C1 /* RSSchool_T8-Bridging-Header.h */,
+				101B95E226A6E105000052C1 /* TimerViewController.swift */,
+				101B95E426A6EFED000052C1 /* PaletteViewController.h */,
+				101B95E526A6EFED000052C1 /* PaletteViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		106829D826A48A3E00BBA7D2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				106829E626A48AD900BBA7D2 /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		106829EF26A4992800BBA7D2 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				106829F626A57C8200BBA7D2 /* PlanetView.h */,
+				106829F726A57C8200BBA7D2 /* PlanetView.m */,
+				106829EC26A4986F00BBA7D2 /* RSMainButton.h */,
+				106829ED26A4986F00BBA7D2 /* RSMainButton.m */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		10A781F426A47D8E0002D3F6 = {
+			isa = PBXGroup;
+			children = (
+				10A781FF26A47D8E0002D3F6 /* RSSchool_T8 */,
+				10A781FE26A47D8E0002D3F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10A781FE26A47D8E0002D3F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10A781FD26A47D8E0002D3F6 /* RSSchool_T8.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10A781FF26A47D8E0002D3F6 /* RSSchool_T8 */ = {
+			isa = PBXGroup;
+			children = (
+				10A7820026A47D8E0002D3F6 /* AppDelegate.h */,
+				10A7820126A47D8E0002D3F6 /* AppDelegate.m */,
+				10A7820326A47D8E0002D3F6 /* SceneDelegate.h */,
+				10A7820426A47D8E0002D3F6 /* SceneDelegate.m */,
+				101B95D226A6D3DF000052C1 /* ViewControllers */,
+				106829EF26A4992800BBA7D2 /* CustomClasses */,
+				106829D826A48A3E00BBA7D2 /* Fonts */,
+				10A7820926A47D8E0002D3F6 /* Main.storyboard */,
+				10A7820C26A47D900002D3F6 /* Assets.xcassets */,
+				10A7820E26A47D900002D3F6 /* LaunchScreen.storyboard */,
+				10A7821126A47D900002D3F6 /* Info.plist */,
+				10A7821226A47D900002D3F6 /* main.m */,
+				106829FC26A57EAA00BBA7D2 /* ViewWithDrawing.h */,
+				106829FD26A57EAA00BBA7D2 /* ViewWithDrawing.m */,
+			);
+			path = RSSchool_T8;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10A781FC26A47D8E0002D3F6 /* RSSchool_T8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A7821626A47D900002D3F6 /* Build configuration list for PBXNativeTarget "RSSchool_T8" */;
+			buildPhases = (
+				10A781F926A47D8E0002D3F6 /* Sources */,
+				10A781FA26A47D8E0002D3F6 /* Frameworks */,
+				10A781FB26A47D8E0002D3F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSSchool_T8;
+			productName = RSSchool_T8;
+			productReference = 10A781FD26A47D8E0002D3F6 /* RSSchool_T8.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10A781F526A47D8E0002D3F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					10A781FC26A47D8E0002D3F6 = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 10A781F826A47D8E0002D3F6 /* Build configuration list for PBXProject "RSSchool_T8" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10A781F426A47D8E0002D3F6;
+			productRefGroup = 10A781FE26A47D8E0002D3F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10A781FC26A47D8E0002D3F6 /* RSSchool_T8 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10A781FB26A47D8E0002D3F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106829EB26A4930000BBA7D2 /* Montserrat-Regular.ttf in Resources */,
+				10A7821026A47D900002D3F6 /* LaunchScreen.storyboard in Resources */,
+				10A7820D26A47D900002D3F6 /* Assets.xcassets in Resources */,
+				10A7820B26A47D8E0002D3F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10A781F926A47D8E0002D3F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A7820826A47D8E0002D3F6 /* ViewController.m in Sources */,
+				101B95E326A6E105000052C1 /* TimerViewController.swift in Sources */,
+				106829F826A57C8200BBA7D2 /* PlanetView.m in Sources */,
+				10A7820226A47D8E0002D3F6 /* AppDelegate.m in Sources */,
+				101B95E626A6EFED000052C1 /* PaletteViewController.m in Sources */,
+				106829EE26A4986F00BBA7D2 /* RSMainButton.m in Sources */,
+				106829F526A4AA1600BBA7D2 /* DrawingsViewController.m in Sources */,
+				10A7821326A47D900002D3F6 /* main.m in Sources */,
+				10A7820526A47D8E0002D3F6 /* SceneDelegate.m in Sources */,
+				106829FE26A57EAA00BBA7D2 /* ViewWithDrawing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10A7820926A47D8E0002D3F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10A7820A26A47D8E0002D3F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10A7820E26A47D900002D3F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10A7820F26A47D900002D3F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10A7821426A47D900002D3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10A7821526A47D900002D3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10A7821726A47D900002D3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5TU43N9GV;
+				INFOPLIST_FILE = RSSchool_T8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nqgural.RSSchool-T8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RSSchool_T8/ViewControllers/RSSchool_T8-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10A7821826A47D900002D3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5TU43N9GV;
+				INFOPLIST_FILE = RSSchool_T8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nqgural.RSSchool-T8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RSSchool_T8/ViewControllers/RSSchool_T8-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10A781F826A47D8E0002D3F6 /* Build configuration list for PBXProject "RSSchool_T8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A7821426A47D900002D3F6 /* Debug */,
+				10A7821526A47D900002D3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10A7821626A47D900002D3F6 /* Build configuration list for PBXNativeTarget "RSSchool_T8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A7821726A47D900002D3F6 /* Debug */,
+				10A7821826A47D900002D3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10A781F526A47D8E0002D3F6 /* Project object */;
+}

@@ -12,7 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 @interface ViewWithDrawing : UIView
 
 -(void)drawRect:(CGRect)rect;
-- (void)drawPlanet;
+-(void)drawPlanet;
+-(void)drawTree;
+-(void)drawFace;
+-(void)drawLandscape;
 
 @end
 

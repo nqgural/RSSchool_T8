@@ -49,7 +49,7 @@
     [self presentViewController:timerViewController animated:YES completion:nil];
 }
 - (IBAction)drawBTClick:(id)sender {
-    [_drawView drawPlanet];
+    [_drawView drawLandscape];
 }
 
 
